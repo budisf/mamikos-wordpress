@@ -3,10 +3,25 @@
 <head>
 	<meta name="viewport" content="width=device-width" />
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>WordPress &#8250; ReadMe</title>
+	
 	<link rel="stylesheet" href="wp-admin/css/install.css?ver=20100228" type="text/css" />
 </head>
 <body>
+
+# Cara Menjalankan aplikasi 
+1. Clone github ini untuk mendownload aplikasi
+2. buka wp-config.php
+3. Ubah database sesuai keinginian anda, misal DB_NAME= mamikos_wordpress dan isi DB_USER dan DB_PASSWORD sesuai dengan akses database anda
+4. Buka xampp kemudian klik start di mysql dan apache
+5. import file mamikos_wordpress.sql yang berada di directory utama atau anda juga bisa membuat database sendiri dengan cara 
+6. Buka http:localhost/namadirectory
+7. Kemudian isi form untuk mengisi nama database, user database, password database, dan host
+8. kemudian klik next dan isi form nama, email dan pasword yang akan anda digunakan
+9. anda akan di bawa langsung ke form login yang telah di authentikasi menggunakan capcha image, apabila 3 kali gagal maka anda akan menerima email pemberitahuan
+10. apabila anda import database mamikos_wordpress.sql yang telah saya sipakan maka masuk localhost/phpmyadmin dan ganti email di table user dengan email anda. Password untk login admin adalah budi1234
+
+
+	
 <h1 id="logo">
 	<a href="https://wordpress.org/"><img alt="WordPress" src="wp-admin/images/wordpress-logo.png" /></a>
 </h1>
